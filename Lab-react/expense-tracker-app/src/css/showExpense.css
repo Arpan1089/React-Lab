@@ -1,0 +1,97 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.date {
+    background-color: lightcoral;
+}
+
+.product {
+    background-color: skyblue;
+}
+
+.price {
+    background-color: blueviolet;
+}
+
+.payee {
+    background-color: burlywood;
+}
+
+.add-button {
+    background-color: lightgreen;
+    width: 60px;
+    height: 30px;
+    border: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-container {
+    width: 80%;
+}
+
+.button-container {
+    margin: 12px;
+    height: 40px;
+}
+
+.total {
+    background-color: lightblue;
+    display: inline-block;
+    width: 180px;
+    margin-right: 10px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.total-value {
+    background-color: lightgreen;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+    width: 120px;
+
+}
+
+.spend {
+    background-color: red;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+    width: 120px;
+
+}
+
+.spend-value {
+    background-color: red;
+    display: inline-block;
+    width: 180px;
+    margin-right: 10px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.tracker {
+    position: absolute;
+    top: 30px;
+    background-color: lightgray;
+    left: 220px;
+    min-width: 350px;
+
+}

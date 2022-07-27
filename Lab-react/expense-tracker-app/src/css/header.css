@@ -1,0 +1,15 @@
+.header{
+    margin-top: -6px;
+    background-color: darkgray;
+   height: 40px;
+}
+
+.header-text{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6px;
+    font-weight: 800;
+    color: yellow;
+}
